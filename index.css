@@ -1,0 +1,8 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgb(235, 234, 232);
+	color: rgb(54, 54, 54);
+	width: 400px;
+	height: 100px;
+	margin: auto auto;
+}
