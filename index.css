@@ -67,3 +67,15 @@ div a:hover {
   padding: 5px;
   height: 30px;
 }
+
+footer {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
