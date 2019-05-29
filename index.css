@@ -1,8 +1,66 @@
 body {
-	font-family: 'Roboto Mono', monospace;
-	background-color: rgb(235, 234, 232);
-	color: rgb(54, 54, 54);
-	width: 400px;
-	height: 100px;
-	margin: auto auto;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(235, 234, 232);
+  color: rgb(54, 54, 54);
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-left {
+  height: 200px;
+}
+
+.header-right {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  border: 2px solid rgb(54, 54, 54);
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-left a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.techs img {
+  padding: 5px;
 }
