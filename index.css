@@ -3,27 +3,28 @@ body {
   background-color: rgb(235, 234, 232);
   color: rgb(54, 54, 54);
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 800px;
   width: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  padding: 0 25px;
 }
 
 header {
   height: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
 .header-left {
-  height: 200px;
+  max-width: 350px;
 }
 
 .header-right {
-  height: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -36,13 +37,13 @@ header {
   margin: 5px;
 }
 
-a:hover {
+div a:hover {
   text-decoration: underline;
 }
 
 .project {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .links {
@@ -50,9 +51,10 @@ a:hover {
   flex-direction: column;
 }
 
-.project-left a {
+.links a {
   text-decoration: none;
   color: rgb(54, 54, 54);
+  padding-bottom: 5px;
 }
 
 .techs {
@@ -63,4 +65,5 @@ a:hover {
 
 .techs img {
   padding: 5px;
+  height: 30px;
 }
