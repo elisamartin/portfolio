@@ -1,8 +1,111 @@
 body {
-	font-family: 'Roboto Mono', monospace;
-	background-color: rgb(235, 234, 232);
-	color: rgb(54, 54, 54);
-	width: 400px;
-	height: 100px;
-	margin: auto auto;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(235, 234, 232);
+  color: rgb(54, 54, 54);
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  max-width: 350px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  border: 2px solid rgb(54, 54, 54);
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+div a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-left {
+  min-width: 160px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  padding-bottom: 5px;
+}
+.project-middle {
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.techs {
+  max-width: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.techs img {
+  padding: 5px;
+  height: 30px;
+}
+
+.project-right {
+  margin: 0 auto;
+}
+
+.project-right img {
+  height: 170px;
+  margin: 30px;
+  border: 10px solid rgb(54, 54, 54);
+}
+
+footer {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+
+@media screen and (max-width: 770px) {
+  .project {
+    padding-top: 50px;
+  }
 }
